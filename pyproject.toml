@@ -1,0 +1,21 @@
+[project]
+name = "rattrapage"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "etienneguevel", email = "etienneguev@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "jupyterlab>=4.4.1",
+    "kaggle>=1.7.4.2",
+    "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
+    "seaborn>=0.13.2",
+    "tabulate>=0.9.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
