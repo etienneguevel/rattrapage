@@ -1,11 +1,11 @@
-# Rattrapage cours Python ISUP 2024 / 2025
+# Rattrapage cours Python ISUP 2024 / 2025
 
 Ce repo contient le sujet pour le rattrapage de l'ISUP 2024/2025.  
 Ce projet vise à analyser des données de matchs et de joueurs de la NBA (
 National Basketball Association), et de permettre à un utilisateur de chercher
 des statistiques d'intérêts sur ces données.
 
-## Données
+## Données
 
 Les données sont contenues dans plusieurs fichiers `.csv` :
 
@@ -18,7 +18,7 @@ Les données sont contenues dans plusieurs fichiers `.csv` :
 La colonne `personId` est l'identifiant unique de chaque joueur, `gameId` est
 l'identifiant unique de chaque match.
 
-## Consignes
+## Consignes
 
 Le but est de créer un package python, avec un fichier `README.md` (comme 
 celui-ci) décrivant le projet, et un setup permettant l'installation de votre
@@ -36,7 +36,7 @@ pouvoir observer les meilleurs joueurs dans la catégorie statistiques choisie
 
 Voir le fichier `src/rattrapage/statistics.py` pour un example.
 
-### 2. Observer les statistiques d'une équipe sur une saison
+### 2. Observer les statistiques d'une équipe sur une saison
 
 Le package python devra aussi avoir un autre script permettant d'afficher les
 statistiques de l'équipe choisie lors d'une saison.  
@@ -45,7 +45,7 @@ ainsi que leurs statistiques pendant cette saison.
 
 Voir le fichier `src/rattrapage/team_statistics.py` pour un example.
 
-### 3. Prédire le salaire d'un joueur
+### 3. Prédire le salaire d'un joueur
 
 Pour les joueurs étant présent dans le fichier `Salaries.csv` cette partie vise
 à créer une classe python permettant de faire de la régression linéaire sur
@@ -62,7 +62,7 @@ Les étapes sont les suivantes:
         constante dans la modélisation
 - Plot les résultats, selon votre choix
 
-## Restrictions
+## Restrictions
 
 Les librairies autorisées pour ce projet sont : `pandas`, `numpy`, `matplotlib`
 et `seaborn`. D'autres librairies de visualisation sont tolérées (exemple
