@@ -5,6 +5,16 @@ Ce projet vise à analyser des données de matchs et de joueurs de la NBA (
 National Basketball Association), et de permettre à un utilisateur de chercher
 des statistiques d'intérêts sur ces données.
 
+## Installation
+
+Pour installer ce package, d'abbord cloner le repo github : 
+`git clone https://github.com/etienneguevel/rattrapage.git`
+
+Ensuite pour installer le package, créer un environnement virtuel `python >= 3.10`, l'activer puis
+éxécuter `pip install -e .`
+
+Si vous avez [uv](https://docs.astral.sh/uv/guides/install-python/) vous pouvez juste faire `uv sync`.
+
 ## Données
 
 Les données sont contenues dans plusieurs fichiers `.csv` :
